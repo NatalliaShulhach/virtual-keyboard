@@ -126,11 +126,6 @@ function MouseEventHandling(event) {
             return;
         }
 
-        if (el.classList.contains('ArrowLeft')) {
-            PressedArrowLeft();
-            return;
-        }
-
     }
 
     if (!(el.innerText == 'Backspace' ||
@@ -141,8 +136,7 @@ function MouseEventHandling(event) {
             el.innerText == "Alt" ||
             el.innerText == "Del" ||
             el.innerText == "Win" ||
-            el.innerText == "Enter" ||
-            el.innerText == "◄")) {
+            el.innerText == "Enter")) {
         textarea.value += `${el.innerText}`;
     }
 }
