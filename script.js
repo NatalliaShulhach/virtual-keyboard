@@ -177,6 +177,7 @@ function KeepStateCtrlShift() {
 }
 
 document.querySelector(".textarea").onkeyup = KeyboardEventHandling;
+document.querySelector(".textarea").onkeydown = KeyboardEventHandling;
 
 
 let button = document.querySelectorAll('.key');
