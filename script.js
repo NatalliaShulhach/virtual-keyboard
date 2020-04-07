@@ -101,9 +101,6 @@ function MouseEventHandling(event) {
         el.classList.add('pressed');
         document.onmouseup = KeepStateCtrlShift;
 
-        // ПЕРЕПИСАТЬ!""""№!№!№;!;№ВУАЦЙЦУАЛДЖТ
-        // SWITCH MADAFAKA
-
         if (el.classList.contains('Backspace')) {
             PressedBackspace();
             return;
